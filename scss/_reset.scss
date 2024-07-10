@@ -1,0 +1,23 @@
+// Ekranı tam doldurmak varsayılanı sıfırlamak
+*,*::before, *,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// ekran büyüklüğüne göre font değitirmek
+html{
+    @include responsive(small){
+        font-size: 1rem;
+    }
+    @include responsive(medium){
+        font-size: 1.1rem;
+    }
+    @include responsive(desktop){
+        font-size: 1.15rem;
+    }
+    @include responsive(large){
+        font-size: 1.2rem;
+    }
+   
+}

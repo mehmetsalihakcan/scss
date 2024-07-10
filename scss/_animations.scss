@@ -1,0 +1,51 @@
+@keyframes textComeFromLeft {
+    0% {
+      transform: translateX(-50%);
+    }
+
+    70% {
+       transform: translateX(20%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes textComeFromRight {
+    0% {
+        transform: translateX(50%);
+      }
+  
+      70% {
+         transform: translateX(-20%);
+      }
+  
+      100% {
+          transform: translateX(0%);
+      }
+}
+
+@keyframes showingButton {
+    0% {
+        transform: scale(0);
+      }
+  
+      70% {
+         transform: scale(1.2);
+      }
+  
+      100% {
+          transform: scale(1);
+      }
+}
+
+@keyframes showingDownButton {
+    0% {
+        transform: scale(.8);
+      }
+
+      100% {
+          transform: scale(1);
+      }
+}
