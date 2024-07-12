@@ -8,7 +8,7 @@ body{
     height: 100vh;
     flex-direction: column;
     @include flexCenter;
-    background-image: linear-gradient(to right bottom, rgba($main-color-dark,.5), rgba($main-color-light,.5)), url('/img/bg.jpg');
+    background-image: linear-gradient(to right bottom, rgba($main-color-dark,.5), rgba($main-color-light,.5)), url('/img/bg4.jpg');
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 50%;
